@@ -180,6 +180,12 @@ own configuration files) to export the relevant variable will suffice.
 .SH OPTIONS
 .\"---------------------------------------------------------------------
 .TP 5
+.BI \-a
+Auto-resolve and install dependencies, combined before -i
+and for one pkg only. example: (-a -i foo)
+or to skip insalled after -k example: (-k -a -i foo)
+.\"---------------------------------------------------------------------
+.TP
 .BI \-b " PACKAGE(s)/QUEUE(s)"
 Build packages of the argument(s) from the active repository.
 If more than one package is specified, they may either be quoted or the
