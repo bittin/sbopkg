@@ -398,3 +398,4 @@ setproctitle=python3-setproctitle
 jsonpatch=python3-jsonpatch
 jsonpointer=python3-jsonpointer
 gospel-pdf-viewer=pdf-bunny
+python-gnupg=python3-gnupg
